@@ -214,13 +214,13 @@ const AppShell = () => {
       <footer style={{ position: 'relative', zIndex: 1, padding: '48px 32px 36px', maxWidth: 1240, margin: '0 auto', display: 'flex', gap: 20, alignItems: 'center', fontFamily: 'var(--font-body)', fontSize: 13, color: 'var(--text-secondary)' }} className="resp-flex-wrap">
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <img src="../../assets/logo-mark.svg" style={{ width: 20, height: 20 }} alt="" />
-          Nous Mnemos · Built on Base · Stored on Arweave
+          Nous Mnemos · Built on Base
         </div>
         <div style={{ flex: 1, display: 'flex', gap: 18, justifyContent: 'center' }} className="resp-flex-wrap">
-          <a style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>Docs</a>
-          <a style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>GitHub</a>
-          <a style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>Contract</a>
-          <a style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>Terms</a>
+          <a href="https://github.com/uzaylisak/nous-mnemos#getting-started" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>Docs</a>
+          <a href="https://github.com/uzaylisak/nous-mnemos" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>GitHub</a>
+          <a href="https://sepolia.basescan.org/address/0x31F20E2a1882c85c2355CE269152C7791159Bb8d" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>Contract</a>
+          <a href="https://github.com/uzaylisak/nous-mnemos/blob/main/LICENSE" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>Terms</a>
         </div>
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: 12, color: 'var(--text-muted)' }}>v0.2.0 · Testnet</div>
       </footer>
