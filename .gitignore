@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# ui_kits/web_app/colors_and_type.css and ui_kits/web_app/fonts/ are
+# intentional copies of the root-level files — DO NOT ignore them.
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+.vercel/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/settings.json

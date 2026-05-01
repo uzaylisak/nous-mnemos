@@ -1,0 +1,6 @@
+{
+  "buildCommand": "mkdir -p ui_kits/web_app/fonts && cp colors_and_type.css ui_kits/web_app/colors_and_type.css && cp fonts/Unbounded-VariableFont_wght.ttf ui_kits/web_app/fonts/Unbounded-VariableFont_wght.ttf",
+  "outputDirectory": "ui_kits/web_app",
+  "cleanUrls": true,
+  "trailingSlash": false
+}
